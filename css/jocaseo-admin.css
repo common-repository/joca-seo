@@ -1,0 +1,101 @@
+.form-table h2.jocaseo_title,
+.form-table p.jocaseo_desc,
+.form-table .jocaseo-form-fields input {
+	margin: 0 0 5px 0 !important;
+	display: block;
+	padding: 1px !important;
+    max-width: 512px;
+}
+.form-table h2.jocaseo_title,
+.form-table input.jocaseo_title {
+	color: #1e0fbe;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-decoration: none;
+    /*white-space: nowrap;*/
+    font-size: 18px !important;
+    line-height: 1.2;
+    font-weight: 400;
+    font-family: Arial,Helvetica,sans-serif;
+    font-style: normal;
+}
+.form-table p.jocaseo_desc,
+.form-table input.jocaseo_desc {
+	color: #777;
+	font-size: 13px;
+    line-height: 1.4;
+    display: block;
+}
+.form-table h2.jocaseo_title:hover,
+.form-table p.jocaseo_desc:hover {
+    background: url(editicon.png) right center no-repeat #bbdefb;
+    cursor: pointer;
+}
+input.jocaseo_error {
+    color: red !important;
+    border-color: red !important;
+}
+tr.jocaseo_cat_table > th {
+	padding: 0 15px;
+	border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    background: #fff;
+}
+tr.jocaseo_cat_table h2.title {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 12PX;
+    width: 101.4%;
+    margin-left: -15px;
+    padding-left: 15px;
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+/** posts, page and profuct list **/
+.column-joca_seo {
+	width: 70px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.jocaseo_meta_desc{
+	display: none;
+	max-width: 512px;
+	color: #777;
+    font-size: 13px;
+    line-height: 1.4;
+	padding: 0px;
+}
+
+.jocaseo_meta_title {
+	color: #1e0fbe !important;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 18px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2;
+	padding: 0px;
+}
+
+.result {
+	display: none;
+}
+
+#progress {
+    height: 20px;
+    width: 100%;
+    text-align: center;
+    color: #46B450;
+    border-radius: 5px;
+}
+
+#progress div {
+    content: '';
+    display: block;
+    background: #0A5C88;
+    width: 0%;
+    height: 100%;
+    border-radius: 3px;
+    margin-top: -19px;
+}
